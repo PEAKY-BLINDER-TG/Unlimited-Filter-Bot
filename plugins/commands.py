@@ -217,7 +217,7 @@ async def start(client, message):
         reply_markup=InlineKeyboardMarkup(
             [
                 [
-                    InlineKeyboardButton("GROUP", url="https://youtu.be/hkmc3e7U7R4"),
+                    InlineKeyboardButton("GROUP", url="https://t.me/cinrmazilla"),
                     InlineKeyboardButton("CREATOR", url="https://t.me/no_ones_like_me")
                 ],
                 [
@@ -270,7 +270,7 @@ async def about(client, message):
             [
                 [
                     InlineKeyboardButton(
-                        "SOURCE CODE", url="https://github.com/TroJanzHEX/Unlimited-Filter-Bot")
+                        "SOURCE CODE", url="https://t.me/cinemazilla4")
                 ],
                 [
                     InlineKeyboardButton("BACK", callback_data="help_data"),
