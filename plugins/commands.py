@@ -269,10 +269,6 @@ async def about(client, message):
         reply_markup=InlineKeyboardMarkup(
             [
                 [
-                    InlineKeyboardButton(
-                        "SOURCE CODE", url="https://t.me/cinemazilla4")
-                ],
-                [
                     InlineKeyboardButton("BACK", callback_data="help_data"),
                     InlineKeyboardButton("CLOSE", callback_data="close_data"),
                 ]                
