@@ -217,12 +217,12 @@ async def start(client, message):
         reply_markup=InlineKeyboardMarkup(
             [
                 [
-                    InlineKeyboardButton("GROUP", url="https://t.me/cinemazilla"),
-                    InlineKeyboardButton("CREATOR", url="https://t.me/no_ones_like_me")
+                    InlineKeyboardButton("✨ 𝙜𝙧𝙤𝙪𝙥", url="https://t.me/cinemazilla"),
+                    InlineKeyboardButton("✨ 𝙢𝙖𝙨𝙩𝙚𝙧", url="https://t.me/no_ones_like_me")
                 ],
                 [
-                    InlineKeyboardButton("CLOSE", callback_data="close_data"),
-                    InlineKeyboardButton("CHANNEL", url="https://t.me/cinemazilla4")
+                    InlineKeyboardButton("✨ 𝙘𝙡𝙤𝙨𝙚", callback_data="close_data"),
+                    InlineKeyboardButton("✨ 𝙘𝙝𝙖𝙣𝙣𝙚𝙡", url="https://t.me/cinemazilla4")
                 ]
             ]
         ),
