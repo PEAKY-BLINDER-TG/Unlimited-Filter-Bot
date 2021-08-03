@@ -55,7 +55,7 @@ See <i>/help</i> for commands and more details.</b>
 
     ABOUT_MSG = """⭕️<b>My Name : ɪsʙᴇʟʟᴀ ᶜᶻ</b>
 
-⭕️<b>Creater :<i><a href="https://t.me/no_ones_like_me">ᴘᴇᴀᴋʏ вℓιи∂єя 🇮🇳 / 🇱🇷</a></i></b>    
+⭕️<b>Creater :<a href="https://t.me/no_ones_like_me">ᴘᴇᴀᴋʏ вℓιи∂єя 🇮🇳 / 🇱🇷</a></i></b>    
 
 ⭕️<b>Language :</b> <code>Python3</code>
 
