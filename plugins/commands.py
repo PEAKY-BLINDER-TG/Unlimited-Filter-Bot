@@ -217,12 +217,12 @@ async def start(client, message):
         reply_markup=InlineKeyboardMarkup(
             [
                 [
-                    InlineKeyboardButton("How to Deploy?", url="https://youtu.be/hkmc3e7U7R4"),
-                    InlineKeyboardButton("About Me", callback_data="about_data")
+                    InlineKeyboardButton("GROUP", url="https://youtu.be/hkmc3e7U7R4"),
+                    InlineKeyboardButton("CREATOR", url="https://t.me/no_ones_like_me")
                 ],
                 [
-                    InlineKeyboardButton("BOT Channel", url="https://t.me/TroJanzHEX"),
-                    InlineKeyboardButton("Support Group", url="https://t.me/TroJanzSupport")
+                    InlineKeyboardButton("About Me", callback_data="about_data"),
+                    InlineKeyboardButton("CHANNEL", url="https://t.me/cinemazilla4")
                 ]
             ]
         ),
