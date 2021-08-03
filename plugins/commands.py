@@ -218,9 +218,13 @@ async def start(client, message):
             [
                 [
                     InlineKeyboardButton("Command Help", callback_data="help_data")
+                    InlineKeyboardButton("Command Help", callback_data="help_data")
+                 ],[
+                     InlineKeyboardButton("Command Help", callback_data="help_data")
+                     InlineKeyboardButton("Command Help", callback_data="help_data")
+                   ]
                 ]
-            ]
-        ),
+            ),
         reply_to_message_id=message.message_id
     )
     if Config.SAVE_USER == "yes":
