@@ -6,6 +6,8 @@ class Script(object):
 
 നോക്കണ്ടാ എന്നെ മറ്റു ഗ്രൂപ്പിൽ ഒന്നും ഉപയോഗിക്കാൻ കഴിയുകയില്ല!
 
+ᴍᴀɪɴᴛᴀɪɴᴇᴅ ʙʏ <ahref="https://t.me/cinemazilla">ᴄɪɴᴇᴍᴀ ᴢɪʟʟᴀ</a>
+
 See <i>/help</i> for commands and more details.</b>
 """
 
