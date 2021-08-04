@@ -6,9 +6,7 @@ class Script(object):
 
 നോക്കണ്ടാ എന്നെ മറ്റു ഗ്രൂപ്പിൽ ഒന്നും ഉപയോഗിക്കാൻ കഴിയുകയില്ല!
 
-ᴍᴀɪɴᴛᴀɪɴᴇᴅ ʙʏ <a href="https://t.me/no_ones_like_me">ᴘᴇᴀᴋʏ вℓιи∂єя </a></i></b>
-
-See <i>/help</i> for commands and more details.</b>
+ᴍᴀɪɴᴛᴀɪɴᴇᴅ ʙʏ <a href="https://t.me/no_ones_like_me">ᴘᴇᴀᴋʏ вℓιи∂єя </a></b>
 """
 
 
