@@ -222,7 +222,7 @@ async def start(client, message):
                 ],
                 [
                     InlineKeyboardButton("✨ 𝙘𝙡𝙤𝙨𝙚", callback_data="close_data"),
-                    InlineKeyboardButton("✨ 𝙘𝙝𝙖𝙣𝙣𝙚𝙡", url="https://t.me/cinemazilla4")
+                    InlineKeyboardButton("help", callback_data="help_data"),
                 ]
             ]
         ),
