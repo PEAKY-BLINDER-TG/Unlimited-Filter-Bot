@@ -14,9 +14,9 @@ class Script(object):
 
 <b>Basic Commands;</b>
 
-/start - Check if I'm alive!
-/help - Command help
-/about - Something about me!
+<b>/start - Check if I'm alive!</b>
+<b>/help - Command help</b>
+<b>/about - Something about me!</b>
 
 
 <b>Filter Commands;</b>
@@ -40,9 +40,9 @@ class Script(object):
 
 <b>Extras;</b>
 
-/status  -  Shows current status of your bot (Auth User Only)
+<b>/status  -  Shows current status of your bot (Auth User Only)</b>
 
-/id  -  Shows ID information
+<b>/id  -  Shows ID information</b>
 
 <b>/info -  Shows User Information.</b>
 
