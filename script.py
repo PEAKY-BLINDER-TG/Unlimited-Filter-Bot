@@ -11,8 +11,6 @@ class Script(object):
 
 
     HELP_MSG = """
-<i>Add me as admin in your group and start filtering :)</i>
-
 
 <b>Basic Commands;</b>
 
@@ -29,7 +27,7 @@ class Script(object):
 
 <code>/delall</code>  -  Delete entire filters (Group Owner Only!)
 
-<code>/view</code>  -  List all filters in chat
+/view -  List all filters in chat
 
 
 <b>Connection Commands;</b>
