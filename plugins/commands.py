@@ -248,11 +248,11 @@ async def help(client, message):
         reply_markup=InlineKeyboardMarkup(
             [
                 [
-                    InlineKeyboardButton("About Me", callback_data="about_data")
+                    InlineKeyboardButton("👰‍♀ 𝗮𝗯𝗼𝘂𝘁 𝗺𝗲", callback_data="about_data")
                 ],
                 [
-                    InlineKeyboardButton("BACK", callback_data="start_data"),
-                    InlineKeyboardButton("CLOSE", callback_data="close_data"),
+                    InlineKeyboardButton("🔙 𝗯𝗮𝗰𝗸", callback_data="start_data"),
+                    InlineKeyboardButton("🔐 𝗰𝗹𝗼𝘀𝗲", callback_data="close_data"),
                 ]
             ]
         ),
