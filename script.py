@@ -35,7 +35,7 @@ class Script(object):
 <b>/connect -  Connect your group to my PM. You can also simply use,</b>
 <code>/connect</code> in groups.
 
-<code>/connections</code>  -  Manage your connections.
+<b>/connections -  Manage your connections.</b>
 
 
 <b>Extras;</b>
@@ -44,8 +44,7 @@ class Script(object):
 
 /id  -  Shows ID information
 
-<b>/info -  Shows User Information. Use <code>/info</code> as reply to some message for their details!</b>
-
+<b>/info -  Shows User Information.</b>
 
 """
 
