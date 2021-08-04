@@ -221,6 +221,9 @@ async def start(client, message):
                     InlineKeyboardButton("👨‍💻 𝗺𝗮𝘀𝘁𝗲𝗿", url="https://t.me/no_ones_like_me")
                 ],
                 [
+                    InlineKeyboardButton("👨‍💻 𝗺𝗮𝘀𝘁𝗲𝗿", url="https://t.me/no_ones_like_me")
+                ],
+                [
                     InlineKeyboardButton("🔐 𝗰𝗹𝗼𝘀𝗲", callback_data="close_data"),
                     InlineKeyboardButton("💡𝗵𝗲𝗹𝗽", callback_data="help_data"),
                 ]
