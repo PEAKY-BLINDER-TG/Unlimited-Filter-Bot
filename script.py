@@ -52,7 +52,7 @@ class Script(object):
 
     ABOUT_MSG = """⭕️<b>My Name : ɪsʙᴇʟʟᴀ ᶜᶻ</b>
 
-⭕️<b>𝗰𝗿𝗲𝗮𝘁𝗼𝗿 :<a href="https://t.me/no_ones_like_me">ᴘᴇᴀᴋʏ вℓιи∂єя 🇮🇳 / 🇱🇷</a></i></b>    
+⭕️<b>𝗰𝗿𝗲𝗮𝘁𝗼𝗿 : <a href="https://t.me/no_ones_like_me">ᴘᴇᴀᴋʏ вℓιи∂єя 🇮🇳 / 🇱🇷</a></i></b>    
 
 ⭕️<b>𝗹𝗮𝗻𝗴𝘂𝗮𝗴𝗲 :</b> <code>Python3</code>
 
