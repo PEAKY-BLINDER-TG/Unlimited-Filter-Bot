@@ -21,18 +21,18 @@ class Script(object):
 
 <b>Filter Commands;</b>
 
-<code>/add name reply</code>  -  Add filter for name
+<b>/add -  Add filter for name</b>
 
-<code>/del name</code>  -  Delete filter
+<b>/del -  Delete filter</b>
 
-<code>/delall</code>  -  Delete entire filters (Group Owner Only!)
+<b>/delall -  Delete entire filters (Group Owner Only!)</b>
 
-/view -  List all filters in chat
+<b>/view -  List all filters in chat</b>
 
 
 <b>Connection Commands;</b>
 
-<code>/connect groupid</code>  -  Connect your group to my PM. You can also simply use,
+<b>/connect -  Connect your group to my PM. You can also simply use,</b>
 <code>/connect</code> in groups.
 
 <code>/connections</code>  -  Manage your connections.
@@ -44,7 +44,7 @@ class Script(object):
 
 /id  -  Shows ID information
 
-<code>/info userid</code>  -  Shows User Information. Use <code>/info</code> as reply to some message for their details!
+<b>/info -  Shows User Information. Use <code>/info</code> as reply to some message for their details!</b>
 
 
 """
