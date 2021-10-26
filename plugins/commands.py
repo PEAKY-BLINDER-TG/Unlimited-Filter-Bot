@@ -161,19 +161,13 @@ async def bot_status(client,message):
                 leftperc = math.floor(quota_left / total_quota * 100)
 
                 quota_details = f"""
-
 **Heroku Account Status**
-
 > __You have **{total} hours** of free dyno quota available each month.__
-
 > __Dyno hours used this month__ ;
         - **{used} hours**  ( {usedperc}% )
-
 > __Dyno hours remaining this month__ ;
         - **{hours} hours**  ( {leftperc}% )
         - **Approximately {days} days!**
-
-
 """
             else:
                 quota_details = ""
@@ -211,22 +205,13 @@ async def bot_status(client,message):
 
 @trojanz.on_message(filters.command('start') & filters.private)
 async def start(client, message):
-    await message.reply_photo(
-        photo="https://telegra.ph/file/3cc01fb8c34564d6291d6.jpg",
-        caption=Script.START_MSG.format(message.from_user.mention),
+    await message.reply_text(
+        text=Script.START_MSG.format(message.from_user.mention),
         disable_web_page_preview=True,
         reply_markup=InlineKeyboardMarkup(
             [
                 [
-                    InlineKeyboardButton("♻️ 𝙂𝙍𝙊𝙐𝙋", url="https://t.me/cinemazilla"),
-                    InlineKeyboardButton("👨‍💻 𝙈𝘼𝙎𝙏𝙀𝙍", url="https://t.me/no_ones_like_me")
-                ],
-                [
-                    InlineKeyboardButton("💿 𝙅𝙊𝙄𝙉 𝙊𝙐𝙍 𝘾𝙃𝘼𝙉𝙉𝙀𝙇 💿", url="https://t.me/joinchat/CXRICR1ok3ViZjk9")
-                ],
-                [
-                    InlineKeyboardButton("🔐 𝘾𝙇𝙊𝙎𝙀", callback_data="close_data"),
-                    InlineKeyboardButton("💡𝙃𝙀𝙇𝙋", callback_data="help_data"),
+                    InlineKeyboardButton("Command Help", callback_data="help_data")
                 ]
             ]
         ),
@@ -252,11 +237,12 @@ async def help(client, message):
         reply_markup=InlineKeyboardMarkup(
             [
                 [
-                    InlineKeyboardButton("👰‍♀ 𝗮𝗯𝗼𝘂𝘁 𝗺𝗲", callback_data="about_data")
+                    InlineKeyboardButton("How to Deploy?", url="https://youtu.be/hkmc3e7U7R4"),
+                    InlineKeyboardButton("About Me", callback_data="about_data")
                 ],
                 [
-                    InlineKeyboardButton("🔙 𝗯𝗮𝗰𝗸", callback_data="start_data"),
-                    InlineKeyboardButton("🔐 𝗰𝗹𝗼𝘀𝗲", callback_data="close_data"),
+                    InlineKeyboardButton("BOT Channel", url="https://t.me/TroJanzHEX"),
+                    InlineKeyboardButton("Support Group", url="https://t.me/TroJanzSupport")
                 ]
             ]
         ),
@@ -271,6 +257,10 @@ async def about(client, message):
         disable_web_page_preview=True,
         reply_markup=InlineKeyboardMarkup(
             [
+                [
+                    InlineKeyboardButton(
+                        "SOURCE CODE", url="https://github.com/TroJanzHEX/Unlimited-Filter-Bot")
+                ],
                 [
                     InlineKeyboardButton("BACK", callback_data="help_data"),
                     InlineKeyboardButton("CLOSE", callback_data="close_data"),
