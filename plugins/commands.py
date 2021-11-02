@@ -270,7 +270,7 @@ async def about(client, message):
         reply_to_message_id=message.message_id
     )
 
-@trojanz.on_message(filters.command('help') & filters.private)
+@trojanz.on_message(filters.command("help", "") & filters.private)
 async def help(client, message):
     await message.reply_text(
         text=Script.HELP_MSG,
